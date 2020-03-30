@@ -1,0 +1,43 @@
+require:
+  - rubocop-performance
+  - rubocop-rake
+  - rubocop/require_tools
+
+AllCops:
+  DisplayCopNames: true
+  TargetRubyVersion: 2.6
+
+# Fit two RubyMine tabs side-by-side on a 1680x1050 screen.
+Layout/LineLength:
+  Max: 109
+
+Metrics/BlockLength:
+  Exclude:
+    - 'spec/**/*_spec.rb'
+
+Require/MissingRequireStatement:
+  Exclude:
+    - 'spec/**/*'
+
+Style/Documentation:
+  Enabled: false
+
+Style/HashEachMethods:
+  Enabled: true
+
+Style/HashTransformKeys:
+  Enabled: true
+
+Style/HashTransformValues:
+  Enabled: true
+
+# Style/FrozenStringLiteralComment is useless early in development, and can always be added later.
+Style/FrozenStringLiteralComment:
+  Enabled: false
+
+# Style/StringLiterals is useless early in development, and can always be added later.
+Style/StringLiterals:
+  Enabled: false
+
+Style/SymbolArray:
+  MinSize: 2
