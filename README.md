@@ -6,7 +6,8 @@ Code goes in `lib`. Tests go in `spec`.
 
 ## What's included
 
-* [rspec](https://github.com/rspec/rspec) for testing.
+* [rspec](https://github.com/rspec/rspec) and [simplecov](https://github.com/colszowka/simplecov) for testing
+  and test coverage.
 * [rubocop](https://github.com/rubocop-hq/rubocop) with additional plugins and an opinionated configuration
   for code style checks.
 * [byebug](https://github.com/deivid-rodriguez/byebug) and [pry](https://github.com/pry/pry) for debugging.
