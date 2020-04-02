@@ -11,6 +11,17 @@ AllCops:
 Layout/LineLength:
   Max: 109
 
+# Allow RSpec block matcher constructions.
+Lint/AmbiguousBlockAssociation:
+  Exclude:
+    - 'spec/**/*_spec.rb'
+
+Lint/RaiseException:
+  Enabled: true
+
+Lint/StructNewOverride:
+  Enabled: true
+
 Metrics/BlockLength:
   Exclude:
     - 'spec/**/*_spec.rb'

@@ -6,7 +6,7 @@ gem "rake", "~> 13.0"
 
 gem "rspec", "~> 3.9"
 
-gem "rubocop", "~> 0.80"
+gem "rubocop", "~> 0.81"
 gem "rubocop-performance", "~> 1.5"
 gem "rubocop-rake", "~> 0.5"
 gem "rubocop-require_tools", "~> 0.1"
