@@ -1,4 +1,8 @@
 require 'pry-byebug'
+require 'simplecov'
+
+SimpleCov.start
+
 Dir['./lib/**/*.rb'].sort.each { |filename| require filename }
 
 # See http://rubydoc.info/gems/rspec-core/RSpec/Core/Configuration
