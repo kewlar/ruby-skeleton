@@ -2,6 +2,11 @@ source "https://rubygems.org"
 
 git_source(:github) { |repo_name| "https://github.com/#{repo_name}" }
 
+# Silence Ruby depreciation warnings.
+gem "fiddle" # reline gem uses this.
+gem "logger" # guard gem uses this.
+gem "ostruct" # guard gem uses this.
+
 gem "rake"
 
 gem "rspec"
